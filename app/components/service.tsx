@@ -29,7 +29,7 @@ const ServicesPage = () => {
           >
             You may be led to therapy by anxiety, depression, relationship stress, past or recent trauma,
             grief and loss, self-esteem issues, or challenges with family, parenting, or parental relationships.
-            Whatever the source of your stress, you don't have to face it alone. Therapy offers you the time
+            Whatever the source of your stress, you don&apos;t have to face it alone. Therapy offers you the time
             and space to work toward wellness and peace.
           </p>
 
@@ -72,8 +72,8 @@ const ServicesPage = () => {
             </p>
             <p className="text-sm text-gray-600 mt-2 leading-6" style={{ fontFamily: '"freight-sans-pro", sans-serif', fontWeight: 300 }}>
               Anxiety and chronic stress can impact every aspect of your life—from sleep and concentration to your relationships and overall well-being.
-              In therapy, you'll gain practical tools to calm your nervous system, challenge unhelpful thinking patterns,
-              and respond to life’s challenges with greater clarity and confidence.
+              In therapy, you&apos;ll gain practical tools to calm your nervous system, challenge unhelpful thinking patterns,
+              and respond to life&apos;s challenges with greater clarity and confidence.
             </p>
           </motion.div>
 
@@ -98,8 +98,8 @@ const ServicesPage = () => {
               Relationship Counseling
             </p>
             <p className="text-sm text-gray-600 mt-2 leading-6" style={{ fontFamily: '"freight-sans-pro", sans-serif', fontWeight: 300 }}>
-              Whether you’re facing conflict, communication breakdowns, or emotional distance, therapy can help you reconnect and grow.
-              In a non-judgmental space, we’ll work on resolving issues and building meaningful connections.
+              Whether you&apos;re facing conflict, communication breakdowns, or emotional distance, therapy can help you reconnect and grow.
+              In a non-judgmental space, we&apos;ll work on resolving issues and building meaningful connections.
             </p>
           </motion.div>
 
@@ -125,7 +125,7 @@ const ServicesPage = () => {
             </p>
             <p className="text-sm text-gray-600 mt-2 leading-6" style={{ fontFamily: '"freight-sans-pro", sans-serif', fontWeight: 300 }}>
               Trauma-informed therapy provides a safe space to explore your past, reduce distressing symptoms, and move toward healing.
-              We’ll work at your pace to restore safety, confidence, and strength.
+              We&apos;ll work at your pace to restore safety, confidence, and strength.
             </p>
           </motion.div>
         </div>

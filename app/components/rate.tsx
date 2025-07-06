@@ -26,8 +26,8 @@ const RatesStrip = () => {
         >
           <p className="pb-2">Individual session: $200</p>
           <p className="pb-2">Couples session: $225</p>
-          <p className="pb-2">In-person: Tue & Thu, 10 AM–6 PM</p>
-          <p>Virtual via Zoom: Mon, Wed & Fri, 1 PM–5 PM</p>
+          <p className="pb-2">In-person: Tue & Thu, 10 AM to 6 PM</p>
+          <p>Virtual via Zoom: Mon, Wed & Fri, 1 PM to 5 PM</p>
         </div>
       </div>
     </motion.section>
