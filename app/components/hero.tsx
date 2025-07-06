@@ -14,38 +14,45 @@ const Hero = () => {
   }, []);
 
   return (
-    <section className="relative w-full min-h-screen bg-[#f3f0e8] overflow-hidden">
-      
+<section className="relative w-full min-h-screen bg-[#f3f0e8] overflow-hidden sm:pt-[20vh]">
+      {/* Logo Section */}
       <div className="absolute top-6 left-4 sm:left-10 z-20 flex items-center gap-3 sm:gap-4">
         <Image
-          src="/logo.jpg" 
+          src="/logo.jpg"
           alt="Logo"
           width={40}
           height={40}
           className="w-10 sm:w-13 h-auto object-contain"
         />
-        <div className="text-left">
-          <h2 className="text-white text-xl sm:text-2xl">Dr. Serena Blake</h2>
-          <p className="text-white text-sm sm:text-base mt-1">psychology services</p>
+        <div className="text-left ">
+          <h2 className="text-black text-xl sm:text-2xl">Dr. Serena Blake</h2>
+          <p className="text-black text-sm sm:text-base mt-1">psychology services</p>
         </div>
       </div>
 
-      
-      <div className="absolute inset-0 z-0">
-        <video
-          ref={videoRef}
-          className="w-full h-full object-cover brightness-50"
-          autoPlay
-          muted
-          loop
-          playsInline
-        >
-          <source src="/videos/hero.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
+      {/* Background Video - Responsive Centered */}
+      <div className="absolute inset-0 z-0 flex items-center justify-center">
+        <div className="w-[90vw] max-h-[80vh] sm:w-[80vw] sm:max-h-[80vh] flex items-center justify-center">
+          <video
+            ref={videoRef}
+            className="
+              w-full h-full
+              object-cover
+              aspect-[9/16] sm:aspect-[16/9]   // Portrait on mobile, landscape on desktop
+              brightness-50
+            "
+            autoPlay
+            muted
+            loop
+            playsInline
+          >
+            <source src="/videos/hero.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
       </div>
 
-      
+      {/* Hero Text Content */}
       <div className="relative z-10 flex items-center justify-center min-h-screen px-4 sm:px-6">
         <motion.div
           className="text-white text-center max-w-[90%]"
@@ -82,7 +89,7 @@ const Hero = () => {
             viewport={{ once: true }}
           >
             Schedule a
-            <br className="hidden sm:block" /> Consultation
+            <br/> Consultation
           </motion.a>
         </motion.div>
       </div>
